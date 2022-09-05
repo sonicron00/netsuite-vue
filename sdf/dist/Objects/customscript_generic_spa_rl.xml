@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_generic_spa_rl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Generic SPA Restlet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/vue-app-test/scripts/restlets/generic_spa_rl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_generic_spa_rl">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>Generic SPA Restlet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

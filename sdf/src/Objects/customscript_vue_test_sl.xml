@@ -1,0 +1,33 @@
+<suitelet scriptid="customscript_vue_test_sl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Vue Test</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/vue-app-test/scripts/suitelets/vue_test_sl.js]</scriptfile>
+    <scriptcustomfields>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_vue_test_sl">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Vue App Test</title>
+      <links>
+        <link>
+          <linkcategory>BASICSETUPCUSTOMIZATION</linkcategory>
+          <linklabel>Vue PoC</linklabel>
+        </link>
+      </links>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
